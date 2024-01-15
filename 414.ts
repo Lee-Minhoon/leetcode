@@ -1,3 +1,5 @@
+// 414. Third Maximum Number
+
 function thirdMax(nums: number[]): number {
   nums.sort((a, b) => b - a);
 

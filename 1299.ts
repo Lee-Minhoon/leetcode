@@ -1,3 +1,5 @@
+// 1299. Replace Elements with Greatest Element on Right Side
+
 function replaceElements(arr: number[]): number[] {
   const result = [];
 

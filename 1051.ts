@@ -1,3 +1,5 @@
+// 1051. Height Checker
+
 function heightChecker(heights: number[]): number {
   let notMatched = 0;
   const sorted = [...heights].sort((a, b) => a - b);

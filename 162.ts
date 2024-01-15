@@ -1,3 +1,5 @@
+// 162. Find Peak Element
+
 function findPeakElement(nums: number[]): number {
   let result;
   nums.forEach((item, index) => {

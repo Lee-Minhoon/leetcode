@@ -1,4 +1,4 @@
-// 700. Search in a Binary Search Tree
+// 104. Maximum Depth of Binary Tree
 
 /**
  * Definition for a binary tree node.
@@ -14,9 +14,7 @@
  * }
  */
 
-function searchBST(root: TreeNode | null, val: number): TreeNode | null {
-  if (!root || root.val === val) return root;
-  const left = searchBST(root.left, val);
-  const right = searchBST(root.right, val);
-  return left ?? right ?? null;
+function maxDepth(root: TreeNode | null): number {
+  if (!root) return 0;
+  return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
 }

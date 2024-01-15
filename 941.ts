@@ -1,3 +1,5 @@
+// 941. Valid Mountain Array
+
 function validMountainArray(arr: number[]): boolean {
   let result = true;
   let climbing = true;

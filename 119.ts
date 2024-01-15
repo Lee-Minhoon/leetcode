@@ -1,3 +1,5 @@
+// 119. Pascal's Triangle II
+
 function getRow(rowIndex: number): number[] {
   if (rowIndex === 0) return [1];
   const current = [];

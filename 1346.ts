@@ -1,3 +1,5 @@
+// 1346. Check If N and Its Double Exist
+
 function checkIfExist(arr: number[]): boolean {
   let result = false;
   for (let i = 0; i < arr.length; i++) {

@@ -1,3 +1,5 @@
+// 779. K-th Symbol in Grammar
+
 function kthGrammar(n: number, k: number): number {
   const getNum = (n: number, k: number): number => {
     if (n === 1) return 0;

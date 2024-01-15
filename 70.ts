@@ -1,3 +1,5 @@
+// 70. Climbing Stairs
+
 const hash = new Array(45);
 hash[0] = 1;
 hash[1] = 2;
